@@ -1,3 +1,17 @@
 # data-handler
 
 handbag website img_url crawling &amp; h5py amazon handbag dataset to jpg converter python code 
+
+## file
+
+### jupyter notebook file
+
+각 task에 따른 jupyter notebook file 입니다.
+
+`1. h5py_to_jpg_convert.ipynb : 약 137000장의 amazon handbag h5py 파일을 자신의 local에 jpg 형태로 변환하여 저장시켜주는 코드입니다.`
+
+`2. web_crawling_bag.ipynb : online handbag website의 img_url을 html에서 source를 찾아내어 list에 저장하고 이를 csv로 만들어주는 코드입니다.`
+
+### data/bag_image_url_csv
+
+각 website의 img_url이 csv 형태로 저장되어있습니다.

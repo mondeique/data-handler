@@ -14,4 +14,4 @@ handbag website img_url crawling &amp; h5py amazon handbag dataset to jpg conver
 
 ### data/bag_image_url_csv
 
-각 website의 img_url이 csv 형태로 저장되어있습니다.
+각 website의 img_url이 csv 형태로 저장되어 있습니다.

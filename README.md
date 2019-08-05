@@ -12,7 +12,9 @@ handbag website img_url crawling &amp; h5py amazon handbag dataset to jpg conver
 
 `2. web_crawling_bag.ipynb : online handbag website의 img_url을 html에서 source를 찾아내어 list에 저장하고 이를 csv로 만들어주는 코드입니다.`
 
-`3. practice_pandas.ipynb : pandas library를 이용하여 여러 data를 handling하는 코드입니다.`
+`3. web_crawling_bag_2.ipynb : 해외 online handbag website의 img_url을 html에서 source를 찾아내어 list에 저장하고 이를 csv로 만들어주는 코드입니다.`
+
+`4. practice_pandas.ipynb : pandas library를 이용하여 여러 data를 handling하는 코드입니다.`
 
 
 ### data/bag_image_url_csv

@@ -22,7 +22,7 @@ handbag website img_url crawling &amp; h5py amazon handbag dataset to jpg conver
 각 website로부터 가져온 img_url이 csv 형태로 저장되어 있습니다.
 또한 't_'로 시작하는 csv 는 column의 형태로 저장되어있던 csv를 transposed 시킨 csv 입니다. 
 
-## Requirements
+## requirements
 
 1. BeautifulSoup 
 

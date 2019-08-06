@@ -32,4 +32,10 @@ handbag website img_url crawling &amp; h5py amazon handbag dataset to jpg conver
 
 각 website로부터 가져온 img_url이 csv 형태로 저장되어 있습니다.
 또한 't_'로 시작하는 csv 는 column의 형태로 저장되어있던 csv를 transposed 시킨 csv 입니다. 
+<br></br>
+## debug
 
+- 대부분의 해외 쇼핑몰은 page 별로 나누어져있지 않고 밑으로 내리면 load data가 되도록 홈페이지가 구성되어 있음 
+   - 그렇기에 web crawling 어려움 발생. 
+
+- 또한 HTTP 접근 자체를 막아놓아 403이나 406의 error를 발생하는 사이트가 많음

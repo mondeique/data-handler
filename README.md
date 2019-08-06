@@ -35,9 +35,16 @@ handbag website img_url crawling &amp; h5py amazon handbag dataset to jpg conver
 <br></br>
 ## debug
 
-- 한국 쇼핑몰의 경우 data 자체의 수가 적어 여러개의 사이트를 돌아다니면서 일일이 크롤링 해야한다는 단점이 있음
+- 한국 쇼핑몰
+   - 한국 쇼핑몰의 경우 data 자체의 수가 적어 여러개의 사이트를 돌아다니면서 일일이 크롤링 해야한다는 단점이 있음
 
-- 대부분의 해외 쇼핑몰은 page 별로 나누어져있지 않고 밑으로 내리면 load data가 되도록 홈페이지가 구성되어 있음 
-   - 그렇기에 web crawling 어려움 발생
+   - 하나의 division 안에 mouseover / mouseout 과 같이 마우스가 올라갈 때마다 사진이 바뀌는 사이트가 존재 
+     -꺼내면 하나의 이미지밖에 나오지 않음
+     
+   - 무신사의 경우 이미지 크기가 너무 작아 포기하였음
 
-- 또한  HTTP 접근 자체를 막아놓아 403이나 406의 error를 발생하는 사이트가 많음
+- 해외 쇼핑몰
+   - 대부분의 해외 쇼핑몰은 page 별로 나누어져있지 않고 밑으로 내리면 load data가 되도록 홈페이지가 구성되어 있음 
+      -그렇기에 web crawling 어려움 발생
+
+   - 또한  HTTP 접근 자체를 막아놓아 403이나 406의 error를 발생하는 사이트가 많음
